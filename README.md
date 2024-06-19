@@ -76,7 +76,8 @@
 - **Element**: Irving
 - **Comparison**: Irving vs Irving
 - **Result**: Irving is found at index 8
-- **Marking Criteria**: 1 mark for each correct step, 1 mark for correct identification.
+
+**Marking Criteria**: 1 mark for each correct step, 1 mark for correct identification.
 
 ### Q8. Explanation of Algorithms [4 Marks]
 - **Answer**:
