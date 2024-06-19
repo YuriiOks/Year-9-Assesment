@@ -46,15 +46,14 @@
 
 ### Q7. Binary Search [5 Marks]
 - **Answer**:
-   - Initial list: [Anthony, Booker, Curry, Durant, Embiid, George, Harden, Irving, James, Leonard, Mitchell, Paul, Thompson, Westbrook, Young]
-  - Compare middle element "Harden" (index 7) with "Irving".
-  - "Irving" is greater than "Harden". Focus on the right sublist: [Irving, James, Leonard, Mitchell, Paul, Thompson, Westbrook, Young]
-  - Compare middle element "Mitchell" (index 10) with "Irving".
-  - "Irving" is less than "Mitchell". Focus on the left sublist: [Irving, James, Leonard]
-  - Compare middle element "James" (index 8) with "Irving".
-  - "Irving" is less than "James". Focus on the left sublist: [Irving]
-  - Compare "Irving" with "Irving". "Irving" is found at index 8.
-  ```
+    - Initial list: [Anthony, Booker, Curry, Durant, Embiid, George, Harden, Irving, James, Leonard, Mitchell, Paul, Thompson, Westbrook, Young]
+    - Compare middle element "Harden" (index 7) with "Irving".
+    - "Irving" is greater than "Harden". Focus on the right sublist: [Irving, James, Leonard, Mitchell, Paul, Thompson, Westbrook, Young]
+    - Compare middle element "Mitchell" (index 10) with "Irving".
+    - "Irving" is less than "Mitchell". Focus on the left sublist: [Irving, James, Leonard]
+    - Compare middle element "James" (index 8) with "Irving".
+    - "Irving" is less than "James". Focus on the left sublist: [Irving]
+    - Compare "Irving" with "Irving". "Irving" is found at index 8.
 - **Marking Criteria**: 1 mark for each correct step, 1 mark for correct identification.
 
 ### Q8. Explanation of Algorithms [4 Marks]
