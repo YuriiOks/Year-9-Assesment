@@ -45,15 +45,37 @@
 - **Marking Criteria**: 0.5 marks for each correct row.
 
 ### Q7. Binary Search [5 Marks]
-- **Answer**:
-    - Initial list: [Anthony, Booker, Curry, Durant, Embiid, George, Harden, Irving, James, Leonard, Mitchell, Paul, Thompson, Westbrook, Young]
-    - Compare middle element "Harden" (index 7) with "Irving".
-    - "Irving" is greater than "Harden". Focus on the right sublist: [Irving, James, Leonard, Mitchell, Paul, Thompson, Westbrook, Young]
-    - Compare middle element "Mitchell" (index 10) with "Irving".
-    - "Irving" is less than "Mitchell". Focus on the left sublist: [Irving, James, Leonard]
-    - Compare middle element "James" (index 8) with "Irving".
-    - "Irving" is less than "James". Focus on the left sublist: [Irving]
-    - Compare "Irving" with "Irving". "Irving" is found at index 8.
+#### Initial Setup
+- **List**: [Anthony, Booker, Curry, Durant, Embiid, George, Harden, Irving, James, Leonard, Mitchell, Paul, Thompson, Westbrook, Young]
+- **Target**: "Irving"
+
+#### Steps of Binary Search
+
+##### Step 1: Initial Comparison
+- **Middle Element**: Harden (index 7)
+- **Comparison**: Irving vs Harden
+- **Result**: Irving is greater than Harden
+- **Action**: Focus on the right sublist
+
+##### Step 2: Second Comparison
+- **Sublist**: [Irving, James, Leonard, Mitchell, Paul, Thompson, Westbrook, Young]
+- **Middle Element**: Mitchell (index 10)
+- **Comparison**: Irving vs Mitchell
+- **Result**: Irving is less than Mitchell
+- **Action**: Focus on the left sublist
+
+##### Step 3: Third Comparison
+- **Sublist**: [Irving, James, Leonard]
+- **Middle Element**: James (index 8)
+- **Comparison**: Irving vs James
+- **Result**: Irving is less than James
+- **Action**: Focus on the left sublist
+
+##### Step 4: Final Identification
+- **Sublist**: [Irving]
+- **Element**: Irving
+- **Comparison**: Irving vs Irving
+- **Result**: Irving is found at index 8
 - **Marking Criteria**: 1 mark for each correct step, 1 mark for correct identification.
 
 ### Q8. Explanation of Algorithms [4 Marks]
